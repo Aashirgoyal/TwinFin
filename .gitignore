@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+twinfin-backend/.env
+
+# Build files
+build/
+
+# Logs
+npm-debug.log*
+
+# Backend port chosen at runtime
+.backend-port
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example

@@ -1,0 +1,8 @@
+.stat-card { display: flex; align-items: center; gap: 14px; height: 100%; }
+.stat-icon { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center;
+  background: #ccfbf1; color: var(--tf-primary); font-size: 20px; flex-shrink: 0; }
+.stat-icon.green { background: #dcfce7; color: var(--tf-green); }
+.stat-icon.red { background: #fee2e2; color: var(--tf-red); }
+.stat-icon.blue { background: #dbeafe; color: #2563eb; }
+.stat-label { color: var(--tf-muted); font-size: 13px; }
+.stat-value { font-size: 22px; font-weight: 700; }

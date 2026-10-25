@@ -1,0 +1,3 @@
+.home-feature i { font-size: 28px; color: var(--tf-primary); }
+.home-feature h6 { margin-top: 10px; font-weight: 600; }
+.home-feature p { color: var(--tf-muted); font-size: 14px; margin: 0; }

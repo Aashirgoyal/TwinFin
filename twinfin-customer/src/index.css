@@ -1,0 +1,19 @@
+:root {
+  --tf-primary: #0f766e;
+  --tf-primary-dark: #115e59;
+  --tf-bg: #f5f7f6;
+  --tf-text: #1f2937;
+  --tf-muted: #6b7280;
+  --tf-green: #16a34a;
+  --tf-red: #dc2626;
+}
+body {
+  margin: 0;
+  background: var(--tf-bg);
+  color: var(--tf-text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+.btn-primary { background: var(--tf-primary); border-color: var(--tf-primary); }
+.btn-primary:hover, .btn-primary:focus { background: var(--tf-primary-dark); border-color: var(--tf-primary-dark); }
+.text-income { color: var(--tf-green); }
+.text-expense { color: var(--tf-red); }

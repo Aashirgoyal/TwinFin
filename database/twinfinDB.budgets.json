@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "6addaca897dfb6162c7a28a9",
+    "customer": "6addaca897dfb6162c7a286a",
+    "category": "Housing",
+    "amount": 1450,
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.978Z",
+    "updatedAt": "2026-10-25T07:15:52.978Z"
+  },
+  {
+    "_id": "6addaca897dfb6162c7a28aa",
+    "customer": "6addaca897dfb6162c7a286a",
+    "category": "Food",
+    "amount": 600,
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.978Z",
+    "updatedAt": "2026-10-25T07:15:52.978Z"
+  },
+  {
+    "_id": "6addaca897dfb6162c7a28ab",
+    "customer": "6addaca897dfb6162c7a286a",
+    "category": "Transport",
+    "amount": 150,
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.978Z",
+    "updatedAt": "2026-10-25T07:15:52.978Z"
+  },
+  {
+    "_id": "6addaca897dfb6162c7a28ac",
+    "customer": "6addaca897dfb6162c7a286a",
+    "category": "Utilities",
+    "amount": 260,
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.978Z",
+    "updatedAt": "2026-10-25T07:15:52.978Z"
+  },
+  {
+    "_id": "6addaca897dfb6162c7a28ad",
+    "customer": "6addaca897dfb6162c7a286a",
+    "category": "Health",
+    "amount": 120,
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.978Z",
+    "updatedAt": "2026-10-25T07:15:52.978Z"
+  },
+  {
+    "_id": "6addaca897dfb6162c7a28ae",
+    "customer": "6addaca897dfb6162c7a286a",
+    "category": "Entertainment",
+    "amount": 60,
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.978Z",
+    "updatedAt": "2026-10-25T07:15:52.978Z"
+  },
+  {
+    "_id": "6addaca897dfb6162c7a28af",
+    "customer": "6addaca897dfb6162c7a286a",
+    "category": "Shopping",
+    "amount": 150,
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.978Z",
+    "updatedAt": "2026-10-25T07:15:52.978Z"
+  }
+]

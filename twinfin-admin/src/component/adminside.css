@@ -1,0 +1,13 @@
+.admin-layout { display: flex; min-height: 100vh; }
+.admin-main { flex: 1; padding: 28px; min-width: 0; }
+.admin-side { width: 220px; background: var(--tf-dark); color: #fff; display: flex; flex-direction: column; gap: 4px; padding: 20px 14px; }
+.admin-brand { font-weight: 700; font-size: 18px; margin-bottom: 18px; }
+.admin-side a { color: #cbd5e1; text-decoration: none; padding: 8px 10px; border-radius: 8px; }
+.admin-side a.active, .admin-side a:hover { background: #1e293b; color: #fff; }
+@media (max-width: 700px) {
+  .admin-layout { flex-direction: column; }
+  .admin-side { width: 100%; flex-direction: row; flex-wrap: wrap; align-items: center; }
+  .admin-brand { margin: 0 12px 0 0; }
+  .admin-side .mt-auto { margin-top: 0 !important; margin-left: auto; }
+  .admin-main { padding: 16px; }
+}

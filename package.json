@@ -1,0 +1,11 @@
+{
+  "name": "twinfin",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix twinfin-backend install && npm --prefix twinfin-customer install && npm --prefix twinfin-admin install",
+    "seed": "npm --prefix twinfin-backend run seed",
+    "backend": "npm --prefix twinfin-backend run dev",
+    "customer": "npm --prefix twinfin-customer start",
+    "admin": "npm --prefix twinfin-admin start"
+  }
+}

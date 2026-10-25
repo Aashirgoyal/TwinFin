@@ -1,0 +1,6 @@
+.tf-banner { display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  background: linear-gradient(135deg, #0f766e, #155e75); color: #fff; border-radius: 16px; padding: 48px 40px; }
+.tf-banner h1 { font-weight: 800; font-size: clamp(28px, 4vw, 42px); }
+.tf-banner p { max-width: 560px; opacity: .9; }
+.tf-banner-icon { font-size: 120px; opacity: .25; }
+@media (max-width: 640px) { .tf-banner { padding: 32px 20px; } .tf-banner-icon { display: none; } }

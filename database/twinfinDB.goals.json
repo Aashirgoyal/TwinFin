@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "6addaca897dfb6162c7a28b1",
+    "customer": "6addaca897dfb6162c7a286a",
+    "title": "Emergency Fund",
+    "saved": 4200,
+    "target": 10000,
+    "monthly": 500,
+    "due": "2027-06",
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.980Z",
+    "updatedAt": "2026-10-25T07:15:52.980Z"
+  },
+  {
+    "_id": "6addaca897dfb6162c7a28b2",
+    "customer": "6addaca897dfb6162c7a286a",
+    "title": "Vacation to Japan",
+    "saved": 1800,
+    "target": 4500,
+    "monthly": 300,
+    "due": "2027-03",
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.980Z",
+    "updatedAt": "2026-10-25T07:15:52.980Z"
+  },
+  {
+    "_id": "6addaca897dfb6162c7a28b3",
+    "customer": "6addaca897dfb6162c7a286a",
+    "title": "New Laptop",
+    "saved": 900,
+    "target": 1600,
+    "monthly": 150,
+    "due": "2026-12",
+    "__v": 0,
+    "createdAt": "2026-10-25T07:15:52.980Z",
+    "updatedAt": "2026-10-25T07:15:52.980Z"
+  }
+]

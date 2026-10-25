@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "6addaca897dfb6162c7a285c",
+    "name": "Admin",
+    "email": "admin@twinfin.com",
+    "password": "$2b$10$7OvsakCINQZotxXX6c0CiO24uswOwIrIlyAXx/AE3dZwYKlrNfQxu",
+    "role": "admin",
+    "createdAt": "2026-10-25T07:15:52.898Z",
+    "updatedAt": "2026-10-25T07:15:52.898Z",
+    "__v": 0
+  }
+]

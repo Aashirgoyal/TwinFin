@@ -1,0 +1,15 @@
+[
+  {
+    "_id": "6addaca897dfb6162c7a286a",
+    "name": "Demo User",
+    "email": "demo@twinfin.com",
+    "password": "$2b$10$In.ju0e3SxwJpn0IXtbW.eYxO7bCF29kTtMMOz1cTnFdZmsLyQtvy",
+    "phone": "9999999999",
+    "currency": "USD",
+    "monthlyIncome": 0,
+    "isActive": true,
+    "createdAt": "2026-10-25T07:15:52.964Z",
+    "updatedAt": "2026-10-25T07:15:52.964Z",
+    "__v": 0
+  }
+]
