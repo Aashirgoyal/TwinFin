@@ -1,5 +1,138 @@
-.tf-header { background: #fff; border-bottom: 1px solid #e5e7eb; }
-.tf-brand { font-weight: 700; color: var(--tf-primary) !important; }
-.tf-header .nav-link { color: var(--tf-muted); font-weight: 500; }
-.tf-header .nav-link.active, .tf-header .nav-link:hover { color: var(--tf-primary); }
-.tf-user { white-space: nowrap; }
+/* .tf-header { 
+    background: #fff; 
+    border-bottom: 1px solid #e5e7eb; 
+}
+.tf-brand { 
+    font-weight: 1000; 
+    font-size: 40px;
+    color: var(--tf-primary) !important; 
+}
+.tf-header .nav-link { 
+    color: var(--tf-muted); 
+    font-weight: 500; 
+}
+.tf-header .nav-link.active, .tf-header .nav-link:hover { 
+    color: var(--tf-primary);
+ }
+.tf-user { 
+    white-space: nowrap; 
+}
+.tf-header {
+  min-height: 100px;
+  padding: 16px 0;
+}
+.navbar-brand tf-brand{
+    min-height: 50px;
+} */
+
+
+
+
+
+
+.tf-header-bottom {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 8px;
+  border: none;
+}
+
+.tf-nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tf-nav-links .nav-item {
+  flex: 1;
+  text-align: center;
+}
+
+.tf-nav-links .nav-link {
+  display: block;
+  padding: 12px 8px;
+  text-decoration: none;
+  color: var(--tf-muted);
+  font-weight: 500;
+}
+
+.tf-nav-links .nav-link.active,
+.tf-nav-links .nav-link:hover {
+  color: var(--tf-primary);
+}
+
+
+
+
+
+
+.tf-header {
+  background: #fff;
+  border: none;
+  min-height: 100px;
+  padding: 16px 0;
+}
+
+.tf-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.tf-header-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+}
+
+.tf-brand {
+  font-weight: 1000;
+  font-size: 40px;
+  color: var(--tf-primary) !important;
+  margin: 0;
+}
+
+.tf-header .nav-link {
+  color: var(--tf-muted);
+  font-weight: 500;
+}
+
+.tf-header .nav-link.active,
+.tf-header .nav-link:hover {
+  color: var(--tf-primary);
+}
+
+.tf-user {
+  white-space: nowrap;
+}
+
+.tf-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tf-header-bottom {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 8px;
+  border: none;
+}
+
+.tf-nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.tf-nav-links .nav-link {
+  padding: 8px 0;
+  text-decoration: none;
+}

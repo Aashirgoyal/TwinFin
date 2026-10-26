@@ -32,8 +32,7 @@ function Register() {
         {error && <div className="alert alert-danger py-2">{error}</div>}
         <input className="form-control mb-3" placeholder="Full name" required value={form.name} onChange={set("name")} />
         <input className="form-control mb-3" type="email" placeholder="Email" required value={form.email} onChange={set("email")} />
-        <input className="form-control mb-3" placeholder="Phone (optional)" value={form.phone} onChange={set("phone")} />
-        <input className="form-control mb-3" type="password" placeholder="Password (min 6 characters)" minLength={6} required value={form.password} onChange={set("password")} />
+        <input className="form-control mb-3" type="password" placeholder="Password (min 4 characters)" minLength={4} required value={form.password} onChange={set("password")} />
         <button className="btn btn-primary w-100" disabled={busy}>{busy ? "Creating..." : "Register"}</button>
         <p className="mt-3 mb-0 text-center">Already registered? <Link to="/login">Login</Link></p>
       </form>
