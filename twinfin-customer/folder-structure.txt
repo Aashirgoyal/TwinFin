@@ -1,0 +1,45 @@
+.
+├── folder-structure.txt
+├── package-lock.json
+├── package.json
+├── public
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── api
+    │   └── axios.js
+    ├── App.css
+    ├── App.js
+    ├── AuthContext.js
+    ├── components
+    │   ├── banner.css
+    │   ├── banner.js
+    │   ├── card.css
+    │   ├── cards.js
+    │   ├── charts.js
+    │   ├── footer.css
+    │   ├── footer.js
+    │   ├── header.css
+    │   ├── header.js
+    │   ├── Home.css
+    │   ├── Home.js
+    │   ├── login.css
+    │   ├── login.js
+    │   ├── register.css
+    │   ├── register.js
+    │   └── routing.js
+    ├── index.css
+    ├── index.js
+    ├── pages
+    │   ├── budgets.js
+    │   ├── dashboard.css
+    │   ├── dashboard.js
+    │   ├── goals.css
+    │   ├── goals.js
+    │   ├── profile.js
+    │   ├── transactions.css
+    │   └── transactions.js
+    └── setupProxy.js
+
+6 directories, 37 files

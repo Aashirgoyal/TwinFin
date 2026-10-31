@@ -15,7 +15,7 @@ exports.register = async (req, res) => {
     try {
         const { name, email, password, phone } = req.body;
         if (!name || !email || !password) return res.status(400).json({ message: "All fields are required" });
-        if (password.length < 6) return res.status(400).json({ message: "Password must be at least 6 characters" });
+        if (password.length < 4) return res.status(400).json({ message: "Password must be at least 4 characters" });
         if (await Customer.findOne({ email: email.toLowerCase() })) return res.status(409).json({ message: "Customer already exists" });
 
         const hashedPassword = await bcrypt.hash(password, 10);
